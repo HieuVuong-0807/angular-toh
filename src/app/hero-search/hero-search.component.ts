@@ -21,6 +21,7 @@ export class HeroSearchComponent implements OnInit {
     );
   }
 
+  //This heroes$ is an Observable of Hero Array
   heroes$!: Observable<Hero[]>;
   private searchTerm = new Subject<string>();
 
