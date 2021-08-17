@@ -11,9 +11,6 @@ export class MessageService {
   
 
   add(message: string) {
-    //this is a comment
-    //This is a second comment
-    //This is a third comment
     this.messages.push(message);
   }
 
