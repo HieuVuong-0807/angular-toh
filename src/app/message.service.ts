@@ -10,7 +10,6 @@ export class MessageService {
 
 
   add(message: string) {
-    //Add comment
     this.messages.push(message);
   }
 
