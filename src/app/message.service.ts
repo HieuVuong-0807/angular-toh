@@ -11,6 +11,7 @@ export class MessageService {
   
 
   add(message: string) {
+    //this is a comment
     this.messages.push(message);
   }
 
