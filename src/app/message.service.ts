@@ -8,9 +8,9 @@ export class MessageService {
   messages: string[] = [];
   constructor() { }
 
-  
 
   add(message: string) {
+    //Add comment
     this.messages.push(message);
   }
 
